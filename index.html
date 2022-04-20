@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Polling.bot by ALXSCH</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/ico" href="images/pollingbot.ico">
+	
+
+	<!-- Bootstrap Files -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- Page CSS -->
+	<link rel="stylesheet" href="css/page.css">
+
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container pt-5">
+		<img src="/images/pollingbot.png" class="logo alignleft" alt="Responsive image">
+		<div class="alignright description pure-text">Stack :
+			HTML | CSS | Bootstrap
+			Including Chart.js
+			Bot by ALXSCH
+			</div>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="container">
+				<div class="row pb-5">
+					<div class="col-12 w-100">
+						<div class="containerBox px-2">
+							<h4 class="text-center pt-3 description" style="color: purple;">Input Text</h4>
+							<div class="form-group p-3">
+								<input type="text" class="form-control" id="textInput" placeholder="abcdefg...">
+									<div class="text-right py-2">
+										<button type="button" class="btn btn-danger" style="color: white" id="textInput" onclick ="textInputReset()">Reset</button>
+									</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<!-- Charts -->
+				<div class="row pb-5">
+					<div class="col-12 w-100">
+						<div class="containerBox py-2 px-5">
+							<h4 class="text-center py-3 description" style="color: purple;">Alphabet chart</h4>
+							<canvas id="alphabetArray" wi dth="400" height="100"></canvas>
+						</div>
+					</div> 
+				</div>
+	</div>
+
+	<!-- Bootstrap Files -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Chart JS -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
+
+	<!-- Page JS -->
+	<script src="js/page.js"></script>
+
+</body>
+
+</html>
