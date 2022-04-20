@@ -1,6 +1,7 @@
 # polling-bot-1.0
- Mini alphabet polling bot using Chart.js
- Header logo using Adobe Illustrator
+ Mini alphabet polling bot using Chart.js.
+ 
+ Header logo using Adobe Illustrator.
  
 Possible updates in future versions:
 - Togglable seperate labels for lowercase letters.
