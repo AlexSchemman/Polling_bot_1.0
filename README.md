@@ -9,4 +9,4 @@ Possible updates in future versions:
 - Customizable Labels.
 
 Version 1.0 quick view:
-![image](https://user-images.githubusercontent.com/68103489/164287272-f039c516-5cdc-4fab-b482-0c7f4548dca7.png)
+![image](https://user-images.githubusercontent.com/68103489/164508055-2eb16925-6add-4afd-b515-7687480fc502.png)
